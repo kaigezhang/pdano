@@ -1,0 +1,31 @@
+{
+  "name": "annotation",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "cross-env PORT=4100 react-scripts start",
+    "build": "react-scripts build",
+    "test": "cross-env PORT=4100 react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "history": "^4.7.2",
+    "marked": "^0.3.6",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.6",
+    "react-router": "^3.0.5",
+    "redux": "^3.7.2",
+    "redux-devtools-extension": "^2.13.2",
+    "redux-logger": "^3.0.6",
+    "superagent": "^3.6.0",
+    "superagent-promise": "^1.1.0"
+  },
+  "devDependencies": {
+    "cross-env": "^5.0.5",
+    "react-scripts": "^1.0.13"
+  }
+}
